@@ -333,4 +333,8 @@ padding: 5px 10px;
 
 .footer{
     grid-area: footer;
-}       
+}
+
+.Logo-img{
+    size: 100px;
+}
