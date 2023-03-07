@@ -22,22 +22,34 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <button class="theme-btn">
+                            <a href="#profile" class="nav-menu-link nav-link">Perfil
+                            </a>
+                        </button>
+                    </li>
                 <li class="nav-menu-item">
-                    <a href="#profile" class="nav-menu-link nav-link">Perfil</a>
+                    <button class="theme-btn">
+                        <a href="#experiencia" class="nav-menu-link nav-link">Experiencia
+                        </a>
+                    </button>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#experiencia" class="nav-menu-link nav-link">Experiencia</a>
+                    <button class="theme-btn">
+                        <a href="#formacion" class="nav-menu-link nav-link">Formación
+                        </a>
+                    </button>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#formacion" class="nav-menu-link nav-link">Formación</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="#contacto" class="nav-menu-link nav-link">Contacto</a> <!--nav-menu-link_active-->
+                    <button class="theme-btn">
+                        <a href="#contacto" class="nav-menu-link nav-link">Contacto</a>
+                    </button>
                 </li>
             </ul>
         </nav>
     </header>
     <article class="main">
+        <!--Perfil-->
         <section class="profile" id="profile">
             <div class="profile-img-section">
                 <img class="profile-img" src="img.jpg" alt="Foto de Perfil">
@@ -48,11 +60,12 @@
                     Sobre mí: <br /> Soy un apasionado por aprender nuevas tecnologías, llevo más de 5 años en el mundo de la informática, específicamente en el área de I.T. y de redes. <br />
                     Siempre estoy en búsqueda de estar adquiriendo nuevos conocimientos, lo que me lleva a estar en constante evolucón, actualmente perfeccionando mis conocimientos en desalloro front-end.
                 </p>
-                <button class="profile-btn">
+                <button class="theme-btn">
                     Descargar C.V.
                 </button>
             </div>
         </section>
+        <!--Experiencia-->
         <section class="experiencias" id="experiencia">
             <div class="experiencias-body">
                 <h2 class="experiencias-title">Experiencia Laboral:</h2>
@@ -90,6 +103,7 @@
                 </div>
             </div>
         </section>
+        <!--Formación-->
         <section class="formacion" id="formacion">
             <div class="formacion-body">
                 <h2 class="formacion-title">Formación Académica</h2>
@@ -115,16 +129,19 @@
                 </div>
             </div>
         </section>
-        <div class="horizontal-padding-vertical-padding"> <!--<aside calss="sidebar">SIDEBAR</aside>-->
-            <section class="contacto" id="contacto">  <!--Ver si esta sección la traslado a la barra lateral-->
-                <h2 class="contact-title">Contacto</h2>
+    </article>
+
+    <aside class="sidebar"> 
+        <!--Contacto-->       
+        <section class="contact" id="contacto">
+            <h2 class="contact-title">Contacto:</h2>
                 <div class="contact-details">
                     <div class="contact-details-group">
-                        <p class="contact-label">Dirección</p>
+                        <p class="contact-label">Dirección:</p>
                         <p class="contact-text">Córdoba, Argentina</p>
                     </div>
                     <div class="contact-details-group">
-                        <p class="contact-label">Email</p>
+                        <p class="contact-label">Email:</p>
                         <p class="contact-text">julian.roquegatti@gmail.com</p>
                     </div>
                     <div class="contact-details-group">
@@ -144,10 +161,10 @@
                         <label for="message">Mensaje</label>
                         <textarea required name="message" id="message" rows="6"></textarea>
                     </div>
-                    <button type="submit" class="contact-form-submit">Enviar</button>
+                    <button type="submit" class="theme-btn">Enviar</button>
                 </form>
-                <nav>
-                    <ul>
+                <nav class="social">
+                    <ul class="social-list">
                         <li>
                             <a href="https://twitter.com/JulianMRG">
                                 <i class="fa-brands fa-square-twitter"></i>
@@ -170,9 +187,8 @@
                         </li>
                     </ul>
                 </nav>
-            </section>
-        </div>
-    </article>
+        </section>
+    </aside>
     <footer class="footer">
         <h4>Proyecto Final Argentina Programa 2022 - 2023</h4>
     </footer>
