@@ -337,6 +337,10 @@ padding: 5px 10px;
     grid-area: sidebar;
 }
 
+.aside-description{
+    margin: 20px;
+}
+
 .logo-img{
 width: 50px;
 height: 50px;
