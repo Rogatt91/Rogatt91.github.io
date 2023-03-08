@@ -54,6 +54,7 @@ section[id]{
         "footer footer" 70px /
         200px   auto;
     }
+
 }
 
 
@@ -71,6 +72,10 @@ section[id]{
     body {
         padding: 5px 15px 15px;
     }
+
+    .footer{
+        font-size: 11px;
+    } 
 
     .header{
         height: 60px;
@@ -324,7 +329,7 @@ padding: 5px 10px;
 .footer{
     grid-area: footer;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
