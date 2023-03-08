@@ -187,6 +187,10 @@ section[id]{
     line-height: 1.3;
 }
 
+.theme-afc{
+    color: #B65427;
+}
+
 .theme-btn{
     background: #73C8A9;
     border-radius: 6px;
