@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C.V. de Julián</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!--Open Graph data-->
+    <!-- Primary Meta Tags -->
+    <title>C.V. Online Julián Roqué Gatti</title>
+    <meta name="title" content="C.V. Online Julián Roqué Gatti">
+    <meta name="description"
+        content="Soy un apasionado por aprender nuevas tecnologías, llevo más de 5 años en el mundo de la informática, específicamente en el área de I.T. y de redes informáticas.
+    Siempre estoy en búsqueda adquirir nuevos conocimientos, lo que me lleva a evolucionar constantemente, actualmente me encuentro perfeccionando mis conocimientos en desarrollo front-end.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rogatt91.github.io/">
+    <meta property="og:title" content="C.V. Online Julián Roqué Gatti">
+    <meta property="og:description"
+        content="Soy un apasionado por aprender nuevas tecnologías, llevo más de 5 años en el mundo de la informática, específicamente en el área de I.T. y de redes informáticas.
+    Siempre estoy en búsqueda adquirir nuevos conocimientos, lo que me lleva a evolucionar constantemente, actualmente me encuentro perfeccionando mis conocimientos en desarrollo front-end.">
+    <meta property="og:image" content="https://i.postimg.cc/JtwJH2vR/open-grapgh-preview-img2.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rogatt91.github.io/">
+    <meta property="twitter:title" content="C.V. Online Julián Roqué Gatti">
+    <meta property="twitter:description"
+        content="Soy un apasionado por aprender nuevas tecnologías, llevo más de 5 años en el mundo de la informática, específicamente en el área de I.T. y de redes informáticas.
+    Siempre estoy en búsqueda adquirir nuevos conocimientos, lo que me lleva a evolucionar constantemente, actualmente me encuentro perfeccionando mis conocimientos en desarrollo front-end.">
+    <meta property="twitter:image" content="https://i.postimg.cc/JtwJH2vR/open-grapgh-preview-img2.jpg">
     <!--Estilos CSS Personalizados-->
     <link rel="stylesheet" href="style.css">
     <!--Google Fonts-->
@@ -15,6 +43,7 @@
     <script src="https://kit.fontawesome.com/2ccce25729.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
 </head>
+
 <body class="grid-container">
     <header class="header">
         <nav class="nav-bar">
@@ -23,158 +52,221 @@
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item">
-                    <a href="#profile" class="nav-menu-link nav-link">Perfil</a>
+                    <button class="theme-btn">
+                        <a href="#profile" class="nav-menu-link nav-link">Perfil
+                        </a>
+                    </button>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#experiencia" class="nav-menu-link nav-link">Experiencia</a>
+                    <button class="theme-btn">
+                        <a href="#experiencia" class="nav-menu-link nav-link">Experiencia
+                        </a>
+                    </button>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#formacion" class="nav-menu-link nav-link">Formación</a>
+                    <button class="theme-btn">
+                        <a href="#formacion" class="nav-menu-link nav-link">Formación
+                        </a>
+                    </button>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#contacto" class="nav-menu-link nav-link">Contacto</a> <!--nav-menu-link_active-->
+                    <button class="theme-btn">
+                        <a href="#contacto" class="nav-menu-link nav-link">Contacto</a>
+                    </button>
                 </li>
             </ul>
         </nav>
     </header>
     <article class="main">
+        <!--Perfil-->
         <section class="profile" id="profile">
             <div class="profile-img-section">
-                <img class="profile-img" src="img.jpg" alt="Foto de Perfil">
+                <img class="profile-img" src="/images/profile-img.jpg" alt="Foto de Perfil">
             </div>
             <div class="profile-info">
                 <h1 class="profile-title">Curriculum Vitae <br />Julián M. Roqué Gatti</h1>
-                <p class="profile-details">
-                    Sobre mí: <br /> Soy un apasionado por aprender nuevas tecnologías, llevo más de 5 años en el mundo de la informática, específicamente en el área de I.T. y de redes. <br />
-                    Siempre estoy en búsqueda de estar adquiriendo nuevos conocimientos, lo que me lleva a estar en constante evolucón, actualmente perfeccionando mis conocimientos en desalloro front-end.
+                <p class="profile-details theme-afc">
+                    Sobre mí: <br /> Soy un apasionado por aprender nuevas tecnologías, llevo más de 5 años en el mundo
+                    de la informática, específicamente en el área de I.T. y de redes informáticas. <br />
+                    Siempre estoy en búsqueda adquirir nuevos conocimientos, lo que me lleva a evolucionar
+                    constantemente. <br />
+                    Actualmente me encuentro perfeccionando mis conocimientos en desarrollo front-end.
                 </p>
-                <button class="profile-btn">
-                    Descargar C.V.
+                <button class="theme-btn">
+                    <a href="https://mega.nz/file/JVlkCDwT#Led_iM_N83HZYXcvxinEwcMHpqpwHpZ8vClqBq_LSjQ" class="nav-link"
+                        target="_blank">Descargar C.V.</a>
                 </button>
             </div>
         </section>
+        <!--Experiencia-->
         <section class="experiencias" id="experiencia">
-            <div class="experiencias-body">
-                <h2 class="experiencias-title">Experiencia Laboral:</h2>
-                    <div class="experiencia">
-                        <div class="experiencia-fecha">Período: 2020-2022</div>
-                        <div class="experiencia-empresa">Empresa: Interatos</div>
-                        <div class="experiencia-puesto">Puesto: Encargado de Zona</div>
-                        <div class="experiencia-descrip">
-                            Encargado en la región de Córdoba del monitoreo, mantenimiento, diseño y expansión de la red de fibra óptica y tecnología wireless de un importante ISP (Internet Service Provider).
-                        </div>
+            <h2 class="experiencias-title">Experiencia Laboral:</h2>
+            <div class="experiencias-body  theme-afc">
+                <div class="experiencia">
+                    <div class="sub-titles">Período: </div>
+                    <div class="experiencia-fecha">2020-2022</div>
+                    <div class="sub-titles">Empresa: </div>
+                    <div class="experiencia-empresa">Interatos</div>
+                    <div class="sub-titles">Puesto: </div>
+                    <div class="experiencia-puesto">Encargado de Zona</div>
+                    <div class="sub-titles">Descripción: </div>
+                    <div class="experiencia-descrip">
+                        Encargado en la región de Córdoba del monitoreo, mantenimiento, diseño y expansión de la red de
+                        fibra óptica y tecnología wireless de un importante ISP (Internet Service Provider).
                     </div>
-                    <div class="experiencia">
-                        <div class="experiencia-fecha">Período: 2018-2020</div>
-                        <div class="experiencia-empresa">Empresa: Red Metropolitana</div>
-                        <div class="experiencia-puesto">Puesto: Jefe de Área</div>
-                        <div class="experiencia-descrip">
-                            Encargado en la región de Córdoba del monitoreo, mantenimiento, diseño y expansión de la red de fibra óptica y tecnología wireless de un importante ISP (Internet Service Provider).
-                        </div>
+                </div>
+                <div class="experiencia">
+                    <div class="sub-titles">Período: </div>
+                    <div class="experiencia-fecha">2018-2020</div>
+                    <div class="sub-titles">Empresa: </div>
+                    <div class="experiencia-empresa">Red Metropolitana</div>
+                    <div class="sub-titles">Puesto: </div>
+                    <div class="experiencia-puesto">Jefe de Área</div>
+                    <div class="sub-titles">Descripción: </div>
+                    <div class="experiencia-descrip">
+                        Encargado en la región de Córdoba del monitoreo, mantenimiento, diseño y expansión de la red de
+                        fibra óptica y tecnología wireless de un importante ISP (Internet Service Provider).
                     </div>
-                    <div class="experiencia">
-                        <div class="experiencia-fecha">Período: 2016-2018</div>
-                        <div class="experiencia-empresa">Empresa: Casa Propia</div>
-                        <div class="experiencia-puesto">Puesto: Asistente Técnico</div>
-                        <div class="experiencia-descrip">
-                            Asistente técnico y de marketing para la creación de bases de datos luego utilizadas para la elaboración de carteras de clientes, estratégias de marketing digital y posicionamiento de marca.
-                        </div>
+                </div>
+                <div class="experiencia">
+                    <div class="sub-titles">Período: </div>
+                    <div class="experiencia-fecha">2016-2018</div>
+                    <div class="sub-titles">Empresa: </div>
+                    <div class="experiencia-empresa">Casa Propia</div>
+                    <div class="sub-titles">Puesto: </div>
+                    <div class="experiencia-puesto">Asistente Técnico</div>
+                    <div class="sub-titles">Descripción: </div>
+                    <div class="experiencia-descrip">
+                        Asistente técnico y de marketing para la creación de bases de datos luego utilizadas para la
+                        elaboración de carteras de clientes, estratégias de marketing digital y posicionamiento de
+                        marca.
                     </div>
-                    <div class="experiencia">
-                        <div class="experiencia-fecha">Período: 2012-2016</div>
-                        <div class="experiencia-empresa">Empresa: Agustino Cueros</div>
-                        <div class="experiencia-puesto">Puesto: Supervisor</div>
-                        <div class="experiencia-descrip">
-                            Supervisor de diversos locales comerciales controlando los niveles de venta y ayudando a mejorar la performance de cada uno de ellos aplicando diversas estrategias de posicionamiento y de venta.
+                </div>
+                <div class="experiencia">
+                    <div class="sub-titles">Período: </div>
+                    <div class="experiencia-fecha">2012-2016</div>
+                    <div class="sub-titles">Empresa: </div>
+                    <div class="experiencia-empresa">Agustino Cueros</div>
+                    <div class="sub-titles">Puesto: </div>
+                    <div class="experiencia-puesto">Supervisor</div>
+                    <div class="sub-titles">Descripción: </div>
+                    <div class="experiencia-descrip">
+                        Supervisor de diversos locales comerciales controlando los niveles de venta y ayudando a mejorar
+                        la performance de cada uno de ellos aplicando diversas estrategias de posicionamiento y de
+                        venta.
                     </div>
                 </div>
             </div>
         </section>
+        <!--Formación-->
         <section class="formacion" id="formacion">
-            <div class="formacion-body">
-                <h2 class="formacion-title">Formación Académica</h2>
+            <h2 class="formacion-title">Formación Académica</h2>
+            <div class="formacion-body theme-afc">
                 <div class="fromacion-academica">
-                    <div class="formacion-institucion">Institución: Colegio Jesús María</div>
-                    <div class="formacion-fecha">Período: 2003-2009</div>
-                    <div class="formacion-nivel">Nivel Alcanzado: Bachillerato</div>
+                    <div class="sub-titles">Institución: </div>
+                    <div class="formacion-institucion">Colegio Jesús María</div>
+                    <div class="sub-titles">Período: </div>
+                    <div class="formacion-fecha">2003-2009</div>
+                    <div class="sub-titles">Nivel Alcanzado: </div>
+                    <div class="formacion-nivel">Bachillerato</div>
                 </div>
                 <div class="fromacion-academica">
-                    <div class="formacion-institucion">Institución: Facultad de Derecho UNC</div>
-                    <div class="formacion-fecha">Período: 2009-2012</div>
-                    <div class="formacion-nivel">Nivel Alcanzado: 3er Año</div>
+                    <div class="sub-titles">Institución: </div>
+                    <div class="formacion-institucion">Facultad de Derecho UNC</div>
+                    <div class="sub-titles">Período: </div>
+                    <div class="formacion-fecha">2009-2012</div>
+                    <div class="sub-titles">Nivel Alcanzado: </div>
+                    <div class="formacion-nivel">3er Año</div>
                 </div>
                 <div class="fromacion-academica">
-                    <div class="formacion-institucion">Institución: AES </div>
-                    <div class="formacion-fecha">Período: 2012-2015</div>
-                    <div class="formacion-nivel">Nivel Alcanzado: Técnico en reparación de Pc's</div>
+                    <div class="sub-titles">Institución: </div>
+                    <div class="formacion-institucion">AES </div>
+                    <div class="sub-titles">Período: </div>
+                    <div class="formacion-fecha">2012-2015</div>
+                    <div class="sub-titles">Nivel Alcanzado: </div>
+                    <div class="formacion-nivel">Técnico en reparación de Pc's</div>
                 </div>
                 <div class="fromacion-academica">
-                    <div class="formacion-institucion">Institución: MKE Solutions</div>
-                    <div class="formacion-fecha">Período: 2019-2020</div>
-                    <div class="formacion-nivel">Nivel Alcanzado: Técnico en redes informáticas</div>
+                    <div class="sub-titles">Institución: </div>
+                    <div class="formacion-institucion">MKE Solutions</div>
+                    <div class="sub-titles">Período: </div>
+                    <div class="formacion-fecha">2019-2020</div>
+                    <div class="sub-titles">Nivel Alcanzado: </div>
+                    <div class="formacion-nivel">Técnico en redes informáticas</div>
                 </div>
             </div>
         </section>
-        <div class="horizontal-padding-vertical-padding"> <!--<aside calss="sidebar">SIDEBAR</aside>-->
-            <section class="contacto" id="contacto">
-                <h2 class="contact-title">Contacto</h2>
-                <div class="contact-details">
-                    <div class="contact-details-group">
-                        <p class="contact-label">Dirección</p>
-                        <p class="contact-text">Córdoba, Argentina</p>
-                    </div>
-                    <div class="contact-details-group">
-                        <p class="contact-label">Email</p>
-                        <p class="contact-text">julian.roquegatti@gmail.com</p>
-                    </div>
-                    <div class="contact-details-group">
-                        <p class="contact-text">Deje su mensaje y será contactado a la brevedad</p>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="contact-form-group">
-                        <label for="name">Nombre</label>
-                        <input required type="text" name="name" id="name">
-                    </div>
-                    <div class="contact-form-group">
-                        <label for="name">Email</label>
-                        <input required type="email" name="email" id="email">
-                    </div>
-                    <div class="contact-form-group">
-                        <label for="message">Mensaje</label>
-                        <textarea required name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <button type="submit" class="contact-form-submit">Enviar</button>
-                </form>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/JulianMRG">
-                                <i class="fa-brands fa-square-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/Rogatt">
-                                <i class="fa-brands fa-square-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/_rogatt_/">
-                                <i class="fa-brands fa-square-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Rogatt19">
-                                <i class="fa-brands fa-square-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-        </div>
     </article>
+
+    <aside class="sidebar">
+        <!--Contacto-->
+        <section class="contact" id="contacto">
+            <h2 class="contact-title">Contacto:</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text theme-afc">Córdoba, Argentina</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text theme-afc">julian.roquegatti@gmail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text ">Deje su mensaje y será contactado a la brevedad</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group theme-afc">
+                    <label for="name">Nombre:</label>
+                    <input required type="text" name="name" id="name" placeholder="Por ejemplo: Persona Jr.">
+                </div>
+                <div class="contact-form-group theme-afc">
+                    <label for="name">Email:</label>
+                    <input required type="email" name="email" id="email" placeholder="Por ejemplo: persona@dominio.com">
+                </div>
+                <div class="contact-form-group theme-afc">
+                    <label for="message">Mensaje:</label>
+                    <textarea required name="message" id="message" placeholder="Por ejemplo: Hola mundo!"
+                        rows="6"></textarea>
+                </div>
+                <button type="submit" class="theme-btn">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://twitter.com/Rogatt91" target="_blank">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Rogatt" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/_rogatt_/" target="_blank">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Rogatt91" target="_blank">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <div class="aside-description">
+            <img class="logo-img-aside" src="/images/infinite-web-logo.png" alt="Spider Logo">
+            <h3>Infinite Web:</h3>
+            <p class="theme-afc">Es mi propio proyecto de desarrollo con fines educativos.</p>
+        </div>
+    </aside>
     <footer class="footer">
+        <img class="logo-img" src="/images/infinite-web-logo.png" alt="Spider Logo">
         <h4>Proyecto Final Argentina Programa 2022 - 2023</h4>
+        <img class="logo-img" src="/images/argentina-programa.svg" alt="Logo Argentina Programa 4.0">
     </footer>
 </body>
+
 </html>
